@@ -31,21 +31,21 @@ botClient = new TelegramBotClient("TELEGRAM_BOT_TOKEN_AQUI"); , e subistituir "T
 long chatId = "ID_SALA_TELEGRAM"; , e subistituir "ID_SALA_TELEGRAM" pelo id do grupo/canal do telegram obitido encaminhando uma mensagem do grupo para o bot JsonDumpBot no privado.
 
  # uso com estrategias personalizadas #
-Para personalizar estrategias nesse bot e uma maneira muito simples. e so voce ir na classe "EstrategiaManager" e instanciar uma nova 
-Estrategias estrategiasum = new Estrategias() { color = 1, colorProteger = 0, comparacaoUm = 1, comparacaoDois = 2, comparacaoTres = 1, comparacaoQuatro = 2 };
-
-color = cor que voce quer jogar;
-color proteger = CorDeProteção(sempre colocar Branco);
-comparacaoUm = ultima cor que saiu na blaze;
-comparacaoDois = penultima cor que saiu na blaze;
-comparacaoTres = antepenultima cor que saiu na blaze;
-comparacaoQuarto = quartaultima cor que saiu na blaze;
-
-
-
-apos fazer isso e so adiciona a estrategia na lista e ser feliz : 
-
-Listadeestrategias.Add(estrategiasum);
+Para personalizar estrategias nesse bot e uma maneira muito simples. e so voce ir na classe "EstrategiaManager" e instanciar uma nova <br />
+Estrategias estrategiasum = new Estrategias() { color = 1, colorProteger = 0, comparacaoUm = 1, comparacaoDois = 2, comparacaoTres = 1, comparacaoQuatro = 2 };<br />
+<br />
+color = cor que voce quer jogar;<br />
+color proteger = CorDeProteção(sempre colocar Branco);<br />
+comparacaoUm = ultima cor que saiu na blaze;<br />
+comparacaoDois = penultima cor que saiu na blaze;<br />
+comparacaoTres = antepenultima cor que saiu na blaze;<br />
+comparacaoQuarto = quartaultima cor que saiu na blaze;<br />
+<br />
+<br />
+<br />
+apos fazer isso e so adiciona a estrategia na lista e ser feliz : <br />
+<br />
+Listadeestrategias.Add(estrategiasum);<br />
 
 
 
